@@ -1,1 +1,7 @@
-int _putchar.c
+#ifndef MAIN.H
+#define MAIN.H
+
+int _putchar(char c)
+int _printf(const char *format, ...);
+
+#endif
