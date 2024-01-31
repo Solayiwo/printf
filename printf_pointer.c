@@ -18,7 +18,9 @@ int printf_pointer(va_list arg_list)
 	if (p == NULL)
 	{
 		for (x = 0; s[x] != '\0'; x++)
+		{
 			_putchar(s[x]);
+		}
 		return (x);
 	}
 
